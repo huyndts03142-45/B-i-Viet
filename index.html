@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Thanh Toán VietQR</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+    <h2>💳 QR Thanh Toán</h2>
+
+    <input type="text" id="name" placeholder="Nội dung chuyển khoản">
+    <input type="number" id="amount" placeholder="Số tiền">
+
+    <button onclick="generateQR()">Tạo QR</button>
+
+    <img id="qr" src="" alt="QR Code">
+</div>
+
+<!-- Link JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
